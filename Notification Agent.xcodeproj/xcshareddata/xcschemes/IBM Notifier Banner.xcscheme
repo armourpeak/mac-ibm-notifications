@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B97583B72673643E0038A99F"
                BuildableName = "IBM Notifier Banner.app"
-               BlueprintName = "IBM Notifier Banner"
+               BlueprintName = "Device Management Information"
                ReferencedContainer = "container:Notification Agent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -50,7 +50,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B97583B72673643E0038A99F"
             BuildableName = "IBM Notifier Banner.app"
-            BlueprintName = "IBM Notifier Banner"
+            BlueprintName = "Device Management Information"
             ReferencedContainer = "container:Notification Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -67,7 +67,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B97583B72673643E0038A99F"
             BuildableName = "IBM Notifier Banner.app"
-            BlueprintName = "IBM Notifier Banner"
+            BlueprintName = "Device Management Information"
             ReferencedContainer = "container:Notification Agent.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

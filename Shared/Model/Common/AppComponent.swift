@@ -19,15 +19,15 @@ enum AppComponent {
     var bundleName: String {
         switch self {
         case .core:
-            return "IBM Notifier"
+            return "ArmourPeak Notifier"
         case .alert:
-            return "IBM Notifier Alert"
+            return "Device Management Alert"
         case .banner:
-            return "IBM Notifier Banner"
+            return "Device Management Information"
         case .onboarding:
-            return "IBM Notifier Onboarding"
+            return "ArmourPeak Notifier Onboarding"
         case .popup:
-            return "IBM Notifier Popup"
+            return "ArmourPeak Notifier Popup"
         }
     }
     var binaryPath: String {
@@ -43,15 +43,15 @@ enum AppComponent {
     }
     static var current: AppComponent {
         switch Bundle.main.bundleIdentifier! {
-        case "com.ibm.cio.notifier":
+        case "com.armourpeak.mac.manage.notifier":
             return .core
-        case "com.ibm.cio.notifier.alert":
+        case "com.ArmourPeak.mac.management.notifier.alert":
             return .alert
-        case "com.ibm.cio.notifier.banner":
+        case "com.ArmourPeak.mac.management.notifier.banner":
             return .banner
-        case "com.ibm.cio.notifier.popup":
+        case "com.ArmourPeak.mac.management.notifier.popup":
             return .popup
-        case "com.ibm.cio.notifier.onboarding":
+        case "com.ArmourPeak.mac.management.notifier.onboarding":
             return .onboarding
         default:
             return .core
